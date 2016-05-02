@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="resources/img/favicon.ico">
+    
+		<title>Xudong Liu's Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+		<link href="css/mynavbarcolors.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+		<!--- Temporary fix for the font size issue -->
+		<style type="text/css">
+			p,a {
+				 font-size: 18px;
+			}
+			
+		</style>
+  	<style type="text/css"></style>
+    <style>
+      .jumbotron {
+          margin-top:20px;
+        }
+    </style>
+
+	</head>
+
+  <body>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><b>XUDONG LIU</b></a>
+						<a href="index.html" class="pull-left"><img style="margin-right:17px;margin-left:-14px;margin-top:17%;" height="25" src="resources/img/chineseName.jpg"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="mypubs.html">Publications</a></li>
+              <li><a href="talks.html">Talks</a></li>
+              <li class="active"><a href="projects.html">Projects</a></li>
+              <li><a href="teaching.html">Teaching</a></li>
+              <li><a href="professional.html">Services</a></li>
+              <li><a href="employment.html">Employment</a></li>
+              <li><a href="awards.html">Awards</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+    <div class="container">
+			<div style="background:rgb(235,235,235) !important" class="jumbotron">
+				<h2>Preference Learning Library</h2>
+				<p>
+					To facilitate preference learning, we build a library of various preferential datasets useful
+					for conducting preference learning experiments on real-world data. 
+					<!-- The website under construction is <a href="preflearnlib.php">here</a>. -->
+				</p>
+			</div>
+
+			<div style="background:rgb(235,235,235) !important" class="jumbotron">
+				<h2>Preference Learning</h2>
+				<p><img src="resources/img/learn_plptrees.png" alt="Some image" width=60% ></p>
+				<p>
+					We introduced the preference formalism of partial lexicographic preference trees, or PLP-trees, over
+					combinatorial domains of alternatives. We study the problem of passive
+					learning, that is, the problem of learning preference models given a set of pairwise preferences between
+					alternatives, called training examples, provided by the user upfront. Specifically, for several classes of
+					PLP-trees, we study how to learn (i) a PLP-tree, preferably of a small size, consistent with a dataset of training
+					examples, and (ii) a PLP-tree correctly ordering as many of the examples as possible in case of inconsistency.
+					Then, we evaluate the predictive power of our model empirically in comparison with other ranking systems in the
+					setting of instance ranking, corresponding to ordinal classification in machine learning.
+				</p>
+			</div>
+
+			<div style="background:rgb(235,235,235) !important" class="jumbotron">
+				<h2>Social Choice for Combinatorial Domains</h2>
+				<p><img src="resources/img/CI_CP.png" alt="Some image" width=60% ></p>
+				<p>
+					When candidates are combinations of values
+					from domains of features, there are just too many of them for humans to
+					express preferences as strict total orders (or votes) over all candidates.
+					However, the system of lexicographic preference trees (LP-trees)
+					often provide compact representations of preferences over combinatorial
+					domains. Our work focuses on two preference-aggregation problems, the
+					winner problem and the evaluation problem, based on positional scoring
+					rules (such as k-approval and Borda) when preferences are represented
+					as LP-trees. We obtain new computational complexity results of these
+					two problems and provide empirical analysis in two programming formalisms,
+					answer set programming (ASP) and weighted partial maximum 
+					satisfiability (WPM).
+					<b>Related:</b>
+					<a href="resources/lpasp_KCS13.pdf"><img src="resources/img/presenticon.png" alt="presentation" width="25" height="25" title="download presentation"></a>
+				</p>
+			</div>
+
+			<div style="background:rgb(235,235,235) !important" class="jumbotron">
+				<h2>Preference Modeling and Optimization</h2>
+				<p><img src="resources/img/prs.png" alt="Some image" width=60% ></p>
+				<p>
+					Preferences over sets can be modeled as weighted propositional formulas.
+					Given a database (the space of possible outcomes), constraints
+					(filtering the database to get the space of feasible outcomes) and
+					preferences (soft constraints indicating personal likings and dislikings),
+					we design and implement a preference reasoning system that automatically
+					produces optimal solutions based on multiple criteria:
+					possibilistic logic, leximin ordering, discrimin ordering and
+					pareto dominance.
+				</p>
+			</div>
+
+			<div class="footer">
+				<p><center>&copy; Xudong Liu 2016</center></p>
+			</div>
+		</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-43843221-1', 'uky.edu');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
