@@ -23,31 +23,31 @@ body {
     max-width: 1100px;
 }
 
-#classes ul {
+#courses ul {
   list-style-type: none;
-  width: 80%;
+  width: 85%;
   margin: auto;
   padding:0;
 }
 
-#classes h3 {
+#courses h3 {
   font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 
-#classes li img {
+#courses li img {
   float: left;
   margin: 0 15px 0 0;
 }
 
-#classes li p {
+#courses li p {
 	font-size: 16px !important;
 }
 
-#classes li {
+#courses li {
   padding: 10px;
   overflow: auto;
 }
 
-#classes li:hover {
+#courses li:hover {
   background: #ccc;
 }
