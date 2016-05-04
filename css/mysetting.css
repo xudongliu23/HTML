@@ -2,12 +2,12 @@ p,a,ul,li {
 	font-size: 18px !important;
 }
 
-p.small {
+p.small, a.small {
 	font-size: 16px !important;
 }
 
-a.small {
-	font-size: 16px !important;
+p.tiny, a.tiny {
+	font-size: 14px !important;
 }
 
 .jumbotron {
@@ -62,4 +62,9 @@ body {
 
 p.center{
 	text-align:center;
+}
+
+.footer > p {
+	text-align:center;
+	color:#808080;
 }
